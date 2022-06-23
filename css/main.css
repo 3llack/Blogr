@@ -1,0 +1,100 @@
+.header-style{
+    background: linear-gradient(0deg, rgba(243, 54, 54, 0.671), rgba(248, 54, 54, 0.911)), url("../images/bg-pattern-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 170px;
+    border-radius: 0px 0px 0px 100px;
+}
+
+.header-style ul li{
+    padding-left: 30px;
+}
+
+.header-style ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown-item{
+    color: rgb(71, 58, 58) !important;
+}
+
+.dropdown-item:hover{
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+.header-style ul li a:hover{
+    color: #000;
+}
+
+.banner h1{
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.banner p{
+    font-size: 16px;
+}
+
+.banner button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid black;
+}
+
+
+
+/*** Ignore This ***/
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(223, 221, 221);
+}
+
+.btn-style{
+    border-radius: 20px !important;
+    color: palevioletred !important;
+    font-weight: bold !important;
+}
+
+.btn-style-two{
+    background: transparent !important;
+    border-radius: 20px !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+
+
+/*** Mobile View ***/
+@media only screen and (min-width: 400px){
+    .banner-mobile img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .banner{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner-img img{
+        display: none;
+    }
+
+    .banner-mobile img{
+        margin-top: 20px;
+    }
+    
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
