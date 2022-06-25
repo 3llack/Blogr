@@ -83,7 +83,15 @@
     padding-top: 100px;
     padding-bottom: 50px;
     border-radius: 0px 100px 0px 100px;
-    margin-bottom: 50px;
+    height: 390px;
+}
+
+.art h3{
+    font-size: 35px;
+}
+
+.art img{
+    margin-top: -160px;
 }
 
 
@@ -95,7 +103,7 @@
     background-position: right 650px top 0;
     background-size: auto;
     color: rgba(23, 23, 97, 0.575);
-    padding-top: 50px;
+    margin-top: 100px;
     height: 900px;
 }
 
@@ -105,7 +113,7 @@
 
 .laptop-text{
     padding-top: 120px;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 
@@ -133,7 +141,7 @@
     color: white;
     text-decoration: none;
     padding: 10px;
-    margin-left: -10px;
+    margin-left: -9.5px;
 }
 
 .footer-header {
@@ -184,6 +192,17 @@
     color: #fff !important;
 }
 
+.btn-style-one{
+    border-radius: 20px !important;
+    color: palevioletred !important;
+    font-weight: bold !important;
+}
+
+.btn-style-one:hover{
+    background-color: palevioletred !important;
+    color: #fff !important;
+}
+
 .btn-style-two{
     background: transparent !important;
     border-radius: 20px !important;
@@ -211,6 +230,22 @@
         text-align: center;
         padding: 0;
         margin: 0;
+    }
+
+    .art{
+        color: rgba(23, 23, 97, 0.575);
+        margin-bottom: 300px;
+    }
+
+    /*** Ignore ***/
+    .btn-style{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .future{
+        background-position: left 799.9px top 0;
     }
 }
 
