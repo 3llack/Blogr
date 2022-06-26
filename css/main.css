@@ -31,10 +31,6 @@
     font-weight: bold !important;
 }
 
-.header-style ul li a:hover{
-    color: #000;
-}
-
 .banner h1{
     font-size: 70px;
     font-weight: lighter;
@@ -180,6 +176,11 @@
     box-shadow: 0 0 8px rgb(223, 221, 221);
 }
 
+.header-style .btn-primary{
+    background-color: transparent !important;
+    border: 0;
+}
+
 .btn-style{
     border-radius: 20px !important;
     color: palevioletred !important;
@@ -219,27 +220,105 @@
 
 
 /*** Mobile View ***/
-@media only screen and (min-width: 400px){
-    .banner-mobile img{
+@media only screen and (min-width: 1025px){
+    .future-img{
+        display: none;
+    }
+
+    .future-two-img{
         display: none;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1024px) {
+    body{
+        text-align: center !important;
+    }
+
+    body p{
+        padding: 25px;
+    }
+
     .banner{
-        text-align: center;
         padding: 0;
         margin: 0;
     }
 
+    .banner h1{
+        font-size: 43px;
+    }
+
+    .banner p{
+        font-size: 22px;
+    }
+
+    .future{
+        background: none;
+        margin-bottom: 600px;
+    }
+
+    .future h3{
+        font-size: 30px;
+        padding-bottom: 40px !important;
+    }
+
+    .future h4{
+        font-size: 37px;
+        font-weight: normal;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .future-text{
+        padding-top: 45px;
+    }
+
     .art{
-        color: rgba(23, 23, 97, 0.575);
-        margin-bottom: 300px;
+        height: 650px !important;
+    }
+
+    .art img{
+        margin-top: -350px;
+    }
+
+    .laptop-text{
+        padding-top: 50px !important;
+    }
+
+    .future-two{
+        background: none;
+    }
+
+    .copyrights{
+        margin-top: 100px;
+    }
+
+    .footer-header{
+        text-align: center !important;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .copyrights ul li{
+        text-align: center !important;
+    }
+
+    .copyrights ul li a{
+        margin-left: 0;
     }
 
     /*** Ignore ***/
+    .header-style ul li a{
+        font-size: 15px;
+    }
+
     .btn-style{
         margin-top: 0;
+    }
+
+    br{
+        display: none;
     }
 }
 
