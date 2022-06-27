@@ -200,7 +200,7 @@
 }
 
 .btn-style-one:hover{
-    background-color: palevioletred !important;
+    background-color: transparent !important;
     color: #fff !important;
 }
 
